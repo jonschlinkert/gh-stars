@@ -1,6 +1,6 @@
 # gh-stars [![NPM version](https://img.shields.io/npm/v/gh-stars.svg?style=flat)](https://www.npmjs.com/package/gh-stars) [![NPM monthly downloads](https://img.shields.io/npm/dm/gh-stars.svg?style=flat)](https://npmjs.org/package/gh-stars) [![NPM total downloads](https://img.shields.io/npm/dt/gh-stars.svg?style=flat)](https://npmjs.org/package/gh-stars) [![Linux Build Status](https://img.shields.io/travis/jonschlinkert/gh-stars.svg?style=flat&label=Travis)](https://travis-ci.org/jonschlinkert/gh-stars)
 
-> Get the stars for one or more users.
+> Get the stars for one or more GitHub users or organizations.
 
 Follow this project's author, [Jon Schlinkert](https://github.com/jonschlinkert), for updates on this project and others.
 
