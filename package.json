@@ -1,7 +1,7 @@
 {
   "name": "gh-stars",
-  "description": "Get the stars for one or more GitHub users or organizations.",
-  "version": "0.1.0",
+  "description": "API and CLI for getting the stars for one or more GitHub users or organizations.",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/gh-stars",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/gh-stars",
