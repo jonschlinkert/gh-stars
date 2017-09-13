@@ -1,0 +1,64 @@
+{
+  "name": "gh-stars",
+  "description": "Get the stars for one or more users.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/gh-stars",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/gh-stars",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/gh-stars/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "bin",
+    "index.js"
+  ],
+  "main": "index.js",
+  "bin": {
+    "stars": "bin/cli.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "log-ok": "^0.1.1",
+    "minimist": "^1.2.0",
+    "pad-left": "^2.1.0",
+    "repos": "^1.0.0",
+    "write": "^1.0.3"
+  },
+  "devDependencies": {
+    "data-store": "^1.0.0",
+    "gulp-format-md": "^1.0.0",
+    "mocha": "^3.5.0",
+    "write-json": "^2.0.0"
+  },
+  "keywords": [
+    "gh",
+    "stars"
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "default",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "gists",
+        "repos",
+        "github-base",
+        "topics"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
+}
